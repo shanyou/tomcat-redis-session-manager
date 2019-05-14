@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'maven'
-apply plugin: 'signing'
+//apply plugin: 'signing'
 
 group = 'com.orangefunction'
 version = '2.0.0'
@@ -43,11 +43,13 @@ artifacts {
   archives javadocJar
   archives sourcesJar
 }
-
+/*
 signing {
   sign configurations.archives
 }
+*/
 
+/*
 uploadArchives {
   repositories {
     mavenDeployer {
@@ -97,3 +99,4 @@ uploadArchives {
     }
   }
 }
+*/
